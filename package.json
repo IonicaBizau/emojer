@@ -1,0 +1,29 @@
+{
+  "name": "emojer",
+  "version": "1.0.0",
+  "description": "Emojify all the things.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/emojer.git"
+  },
+  "keywords": [
+    "emoji",
+    "emojify",
+    "generate"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/emojer/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/emojer#readme",
+  "dependencies": {
+    "barbe": "^2.2.1",
+    "match-all": "^1.1.1",
+    "regex-emoji": "^2.0.1"
+  }
+}
