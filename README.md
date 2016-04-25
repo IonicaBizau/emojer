@@ -1,14 +1,18 @@
+
 # emojer [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/emojer.svg)](https://www.npmjs.com/package/emojer) [![Downloads](https://img.shields.io/npm/dt/emojer.svg)](https://www.npmjs.com/package/emojer) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Emojify all the things.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save emojer
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const emojer = require("emojer");
@@ -17,7 +21,8 @@ console.log(emojer("Hello :earth_americas: and :earth_africa:!", "<img src='http
 // => "Hello <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_americas.png?v5'> and <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_africa.png?v5'>!"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `emojer(message, template)`
 Replaces the `:emoji:` snippets in the input string with the specified template.
@@ -31,13 +36,18 @@ The `__EMOJI_NAME__` snippets in the template will be replaced with the emoji na
 #### Return
 - **String** The result string.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`emojer-cli`](https://github.com/IonicaBizau/emojer-cli#readme)—Command line tool for emojer.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
