@@ -1,6 +1,6 @@
 {
   "name": "emojer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emojify all the things.",
   "main": "lib/index.js",
   "scripts": {
@@ -28,5 +28,16 @@
   },
   "devDependencies": {
     "tester": "^1.3.1"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
