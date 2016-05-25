@@ -1,6 +1,6 @@
 {
   "name": "emojer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emojify all the things.",
   "main": "lib/index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
