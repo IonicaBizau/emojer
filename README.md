@@ -23,6 +23,15 @@ console.log(emojer("Hello :earth_americas: and :earth_africa:!", "<img src='http
 // => "Hello <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_americas.png?v5'> and <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_africa.png?v5'>!"
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :memo: Documentation
 
 
