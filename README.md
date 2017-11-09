@@ -23,6 +23,12 @@ const emojer = require("emojer");
 
 console.log(emojer("Hello :earth_americas: and :earth_africa:!", "<img src='https://github.global.ssl.fastly.net/images/icons/emoji/__EMOJI_NAME__.png?v5'>"));
 // => "Hello <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_americas.png?v5'> and <img src='https://github.global.ssl.fastly.net/images/icons/emoji/earth_africa.png?v5'>!"
+
+// Not :everything: is an emoji
+console.log(emojer("I :heart: you! :yaaay:", "<img src='https://github.global.ssl.fastly.net/images/icons/emoji/__EMOJI_NAME__.png?v5'>", {
+    heart: true
+}));
+// => I <img src='https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5'> you! :yaaay:
 ```
 
 
@@ -33,13 +39,15 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
 
 
-### `emojer(message, template)`
+### `emojer(message, template, supportedEmojis)`
 Replaces the `:emoji:` snippets in the input string with the specified template.
 
 The `__EMOJI_NAME__` snippets in the template will be replaced with the emoji names.
@@ -48,6 +56,7 @@ The `__EMOJI_NAME__` snippets in the template will be replaced with the emoji na
 
 - **String** `message`: The input string containing `:emoji:`.
 - **String** `template`: The template to be used for replacing the `:emoji:` icons.
+- **String** `supportedEmojis`: A map of supported emoji names and truly values (e.g. `{ heart: true }`)
 
 #### Return
 - **String** The result string.
