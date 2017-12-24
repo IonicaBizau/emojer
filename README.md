@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save emojer
+# Using npm
+npm install --save emojer
+
+# Using yarn
+yarn add emojer
 ```
 
 
