@@ -1,6 +1,6 @@
 {
   "name": "emojer",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Emojify all the things.",
   "main": "lib/index.js",
   "scripts": {
@@ -40,6 +40,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
